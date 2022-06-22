@@ -1,19 +1,13 @@
-<<<<<<< HEAD
-import './App.css'
-import Home from './pages/home/Home'
-import Nav from './components/nav/Nav'
-function App() {
-=======
+/* HEAD */
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/home/Home";
-import AboutUs from "./components/aboutUs/AboutUs";
-import Solutions from "./components/solutions/Solutions";
-import Services from "./components/services/Services";
-import Clients from "./components/clients/Clients";
-import Contact from "./components/contact/Contact";
+import Home from './pages/home/Home'
+import AboutUs from "./pages/aboutUs/AboutUs";
+import Solutions from "./pages/solutions/Solutions";
+import Services from "./pages/services/Services";
+import Clients from "./pages/clients/Clients";
+import Contact from "./pages/contact/Contact";
 import Nav from "./components/nav/Nav";
->>>>>>> alt1
 
 function App() {
   // INICIO NOSOTROS SOLUCIONES NAV
