@@ -1,0 +1,18 @@
+.imgFondoTitulo{
+    width: 100%;
+    background-size:cover;
+}
+.containerTitulo{
+    position: relative;
+    display: inline-block;
+}
+.tituloSeccion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+.containerEmail{
+    margin: 3%;
+}

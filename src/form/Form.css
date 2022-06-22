@@ -1,0 +1,23 @@
+/* Container padre */
+.MuiContainer-root.MuiContainer-maxWidthLg.css-1oqqzyl-MuiContainer-root {margin: 6%; display: flex;flex-wrap: wrap;flex-direction: column;justify-content: space-evenly;width: 80%;}
+/* formato input */
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    margin: 2%;
+    border-radius: 15px;
+}
+/* input nombre,tel,email,organizacion */
+.MuiFormControl-root.MuiTextField-root.outlined-basic.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 50%;
+}
+/* input Mensaje */
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+}
+/* boton */
+button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.enviar.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    margin: 4%;
+    width: 13%;
+    height: 5vh;
+    border-radius: 15px;
+    align-self: flex-end;
+}
