@@ -1,10 +1,10 @@
-import "./Home.css"
+import { Link } from "react-router-dom";
+import "./Home.css";
 const Home = () => {
   return (
-    <div>
-
+    <div >
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
