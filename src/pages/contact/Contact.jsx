@@ -2,7 +2,7 @@ import "./Contact.css";
 
 import React from "react";
 import imgFondoTitulo from "../../img/fondo-titulo.png";
-import Form from "../../form/Form";
+import Form from "../../components/form/Form";
 import Footer from "../../components/footer/Footer";
 
 const Contact = () => {

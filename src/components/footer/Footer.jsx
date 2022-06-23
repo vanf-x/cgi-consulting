@@ -5,18 +5,18 @@ const Footer = () => {
   return (
     <div className="containerFooter">
       <div className="children">
-        <h1 style={{margin:'1%'}}>CGI CONSULTING INC.</h1>
+        <h1 style={{margin:'2%'}}>CGI CONSULTING INC.</h1>
         <img src="" alt="Logo CGI." />
         <p>Consultoría y Gestión para la Inversión en Infraestructura</p>
         {/* logos redes */}
       </div>
       <div className="children">
-        <h2 style={{margin:'1%'}}>Contáctenos</h2>
+        <h2 style={{margin:'2%'}}>Contáctenos</h2>
         {/* logo email */}
         <p>info@cgiconsulting.co</p>
       </div>
       <div className="children">
-        <h2 style={{margin:'1%'}}>Servicios</h2>
+        <h2 style={{margin:'2%'}}>Servicios</h2>
         <p>Ingeniería y Construcción</p>
         <p>Energía y Automatización</p>
         <p>Bienes Raíces Industriales</p>
