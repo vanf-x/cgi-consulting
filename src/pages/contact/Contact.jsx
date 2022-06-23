@@ -1,16 +1,12 @@
 import "./Contact.css";
-
 import React from "react";
-import imgFondoTitulo from "../../img/fondo-titulo.png";
 import Form from "../../components/form/Form";
 import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
 
 const Contact = () => {
   return <>
-    <div className="containerTitulo">
-      <img src={imgFondoTitulo} alt="fondo" className="imgFondoTitulo"/>
-      <h1 className="tituloSeccion">CONTACTO</h1>
-    </div>
+    <Header/>
     <Form/>
     <div className="containerEmail">
       <h2>E-mail</h2>

@@ -80,8 +80,8 @@ const Nav = () => {
           <Link to="/servicios" className={`${urlActual === "/servicios" && "selected"} nav-link`}>
             Servicios
           </Link>
-          <Link to="/clientes" className={`${urlActual === "/clientes" && "selected"} nav-link`}>
-            Clientes
+          <Link to="/proyectos" className={`${urlActual === "/proyectos" && "selected"} nav-link`}>
+            Proyectos
           </Link>
           <Link to="/contacto" className={`${urlActual === "/contacto" && "selected"} nav-link`}>
             Contacto

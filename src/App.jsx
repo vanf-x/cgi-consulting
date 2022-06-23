@@ -5,7 +5,7 @@ import Home from './pages/home/Home'
 import AboutUs from "./pages/aboutUs/AboutUs";
 import Solutions from "./pages/solutions/Solutions";
 import Services from "./pages/services/Services";
-import Clients from "./pages/clients/Clients";
+import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
 import Nav from "./components/nav/Nav";
 
@@ -21,7 +21,7 @@ function App() {
           <Route path="/nosotros" element={<AboutUs />} />
           <Route path="/soluciones" element={<Solutions />} />
           <Route path="/servicios" element={<Services />} />
-          <Route path="/clientes" element={<Clients />} />
+          <Route path="/proyectos" element={<Projects />} />
           <Route path="/contacto" element={<Contact />} />
         </Routes>
       </BrowserRouter>
