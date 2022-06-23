@@ -3,6 +3,7 @@ import "./Contact.css";
 import React from "react";
 import imgFondoTitulo from "../../img/fondo-titulo.png";
 import Form from "../../form/Form";
+import Footer from "../../components/footer/Footer";
 
 const Contact = () => {
   return <>
@@ -19,7 +20,7 @@ const Contact = () => {
       <p>energia@cgiconsulting.co</p>
       <p>inmuebles@cgiconsulting.co</p>
     </div>
-    {/* footer */}
+    <Footer/>
   </>;
 };
 

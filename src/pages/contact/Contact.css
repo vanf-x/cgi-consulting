@@ -2,11 +2,13 @@
     width: 100%;
     background-size:cover;
 }
+/* cambiar height y tamaño letra smartphone */
 .containerTitulo{
     position: relative;
     display: inline-block;
 }
 .tituloSeccion{
+    letter-spacing: 1px;
     position: absolute;
     top: 50%;
     left: 50%;
