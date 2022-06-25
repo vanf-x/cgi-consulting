@@ -6,29 +6,36 @@
 .containerInputs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 2% 3%;
     grid-auto-flow: row;
     grid-template-areas: 
     "nombre correo"
     "tel org"
     "mensaje mensaje"
+    ". enviar";
 }
 #mensaje { grid-area: mensaje; }
 #nombre { grid-area: nombre; }
 #tel { grid-area: tel; }
 #correo { grid-area: correo; }
 #org { grid-area: org; }
+.enviar{grid-area: enviar;}
 
 
 /* formato input */
 .MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
-    margin: 2%;
+    margin: 1%;
     border-radius: 15px;
+}
+/* mensaje */
+.MuiFormControl-root.MuiTextField-root.outlined-basic-mensaje.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 210%;
 }
 /* boton */
 button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.enviar.css-sghohy-MuiButtonBase-root-MuiButton-root {
-    margin: 3%;
-    width: 13%;
-    border-radius: 15px;
+    margin: 2%;
+    width: 25%;
+    border-radius: 30px;
+    justify-self: end;
 }

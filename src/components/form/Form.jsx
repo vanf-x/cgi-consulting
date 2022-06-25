@@ -11,9 +11,10 @@ const Form = () => {
             <TextField id='correo' className="outlined-basic" label="Correo Electronico" variant="outlined" type="email"/>
             <TextField id='tel' className="outlined-basic" label="Telefono" variant="outlined" type="tel"/>
             <TextField id='org' className="outlined-basic" label="Organizacion" variant="outlined" type="text"/>
-            <TextField id='mensaje' label="Mensaje" variant="outlined" type="text"/>
+            <TextField id='mensaje' className="outlined-basic-mensaje" label="Mensaje" variant="outlined" type="text"/>
+            <Button className="enviar" variant="contained">ENVIAR</Button>
         </div>
-        <Button className="enviar" variant="contained">ENVIAR</Button>
+        
     </Container>
   )
 }
