@@ -6,7 +6,7 @@ import Header from "../../components/header/Header";
 
 const Contact = () => {
   return <>
-    <Header/>
+    <Header titulo="CONTACTO"/>
     <Form/>
     <div className="containerEmail">
       <h2>E-mail</h2>

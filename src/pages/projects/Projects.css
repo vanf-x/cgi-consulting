@@ -1,0 +1,30 @@
+/* .containerProyectos{
+    display: grid;
+} */
+
+.unispan{
+    margin: 4%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 2% 3%;
+    grid-template-areas: 
+    "h1 img"
+    "h3 img"
+    "p img"
+}
+.nanka{
+    margin: 4%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 2% 3%;
+    grid-template-areas: 
+    "h1 img"
+    "h3 img"
+    "p img"
+}
+.h1{grid-area: h1;}
+.h3{grid-area: h3;}
+.p{grid-area: p;     text-align: justify;}
+.img{grid-area: img ;}
