@@ -3,6 +3,7 @@ import "./Services.css";
 import React from "react";
 import Header from "../../components/header/Header";
 import { Container } from "@mui/material";
+import Footer from "../../components/footer/Footer";
 
 const Services = () => {
   return <>
@@ -89,6 +90,7 @@ const Services = () => {
           {/* imagen */}
         </section>
       </Container>
+      <Footer/>
   </>;
 };
 

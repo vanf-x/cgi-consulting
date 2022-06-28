@@ -1,10 +1,11 @@
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
 import "./Solutions.css";
+
 const Solutions = () => {
   return (
     <>
-      <div className="solutions-header">
-        <h1>Soluciones</h1>
-      </div>
+      <Header titulo="SOLUCIONES"/>
       <div className="container">
         <div className="content">
           <div className="content-left">
@@ -50,6 +51,7 @@ const Solutions = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

@@ -1,5 +1,6 @@
 import "./Home.css";
 import { Link, useLocation, NavLink } from "react-router-dom";
+import Footer from '../../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -77,6 +78,7 @@ const Home = () => {
           <img src="../src/img/Clientes/EyF.jpg" alt="EyF" />
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

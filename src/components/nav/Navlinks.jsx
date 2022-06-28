@@ -58,10 +58,10 @@ const Navlinks = (props) => {
             onClick={() => {
               props.isMobile && props.closeMobile();
             }}
-            to="/clientes"
-            className={`${urlActual === "/clientes" && "selected"} nav-link`}
+            to="/proyectos"
+            className={`${urlActual === "/proyectos" && "selected"} nav-link`}
           >
-            Clientes
+            Proyectos
           </Link>
         </li>
         <li>
