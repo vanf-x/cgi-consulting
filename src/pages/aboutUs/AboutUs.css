@@ -1,0 +1,61 @@
+.aboutUs-header {
+  background-image: url(../../img/fondoTitulo.png);
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  display: flex;
+  max-width: 1000px;
+  margin: 25px 0;
+}
+.content-left {
+  width: 30%;
+  text-align: center;
+  margin: 10px 0;
+  margin-right: 20px;
+}
+.content-left img {
+  width: 150px;
+  box-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+.content-right {
+  width: 70%;
+  padding: 20px;
+}
+
+ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+ul li{
+  padding-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    text-align: justify;
+    margin-bottom: 0px;
+
+  }
+  .content-left {
+    width: 100%;
+  }
+  .content-right {
+    width: 100%;
+  }
+  ul {
+    margin-top: 20px;
+    padding-right: 20px;
+  }
+}
