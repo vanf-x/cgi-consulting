@@ -47,4 +47,10 @@
     color:white;
     grid-area: copyright;
 }
-
+.logo{
+    height: 10vh;
+    text-align: center;
+}
+.iconsRedes {
+    margin-top: 40%;
+}

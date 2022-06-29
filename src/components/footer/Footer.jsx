@@ -1,19 +1,50 @@
 import "./Footer.css"
 import React from 'react'
+import logo from "../../img/Logo-removebg-previewEdited.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faLinkedinIn,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
     <div className="containerFooter">
       <div className="cgi">
         <h1 style={{margin:'2%'}}>CGI CONSULTING INC.</h1>
-        <img src="" alt="Logo CGI." />
+        <img src={logo} alt="Logo CGI." className="logo" />
         <p>Consultoría y Gestión para la Inversión en Infraestructura</p>
-        {/* logos redes */}
       </div>
       <div className="contactenos">
         <h2 style={{margin:'2%'}}>Contáctenos</h2>
-        {/* logo email */}
-        <p>info@cgiconsulting.co</p>
+        <div style={{marginTop:'10%'}}>
+          {/* logo email */}
+          <p>info@cgiconsulting.co</p>
+        </div>
+        <div className="iconsRedes">
+          <a href="https://www.facebook.com/cgiconsultinginc" target="_blank">
+            <FontAwesomeIcon
+              icon={faFacebookF}
+              className="nav-icon"
+            ></FontAwesomeIcon>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/cgiconsulting/"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedinIn}
+              className="nav-icon"
+            ></FontAwesomeIcon>
+          </a>
+          <a href="#">
+            <FontAwesomeIcon
+              icon={faInstagram}
+              className="nav-icon"
+            ></FontAwesomeIcon>
+          </a>
+        </div>
       </div>
       <div className="servicios">
         <h2 style={{margin:'2%'}}>Servicios</h2>
