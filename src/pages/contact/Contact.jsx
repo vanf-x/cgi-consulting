@@ -11,6 +11,7 @@ const Contact = () => {
     <div className="containerEmail">
       <h2>E-mail</h2>
       <p>info@cgiconsulting.co</p>
+      <h4 style={{marginTop:'1%'}}>Para comunicarte con un área específica:</h4>
       <p>ingenieria@cgiconsulting.co</p>
       <p>seguros@cgiconsulting.co</p>
       <p>energia@cgiconsulting.co</p>
