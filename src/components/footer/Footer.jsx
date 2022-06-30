@@ -1,6 +1,7 @@
 import "./Footer.css"
 import React from 'react'
 import logo from "../../img/Logo-removebg-previewEdited.png"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
@@ -16,11 +17,15 @@ const Footer = () => {
         <img src={logo} alt="Logo CGI." className="logo" />
         <p>Consultoría y Gestión para la Inversión en Infraestructura</p>
       </div>
+
       <div className="contactenos">
         <h2 style={{margin:'2%'}}>Contáctenos</h2>
-        <div style={{marginTop:'10%'}}>
-          {/* logo email */}
-          <p>info@cgiconsulting.co</p>
+        <div className="email">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className="nav-icon"
+            ></FontAwesomeIcon>
+            <p>info@cgiconsulting.com</p>
         </div>
         <div className="iconsRedes">
           <a href="https://www.facebook.com/cgiconsultinginc" target="_blank">
@@ -46,6 +51,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
+
       <div className="servicios">
         <h2 style={{margin:'2%'}}>Servicios</h2>
         <p>Ingeniería y Construcción</p>
@@ -54,7 +60,9 @@ const Footer = () => {
         <p>Suministro y Automatización</p>
         <p>Gestión de Riesgos y Seguros</p>
       </div>
+
       <div className="linea"></div>
+      
       <div className="copyright">Copyright  2022.Todos los derechos reservados.</div>
     </div>
   )

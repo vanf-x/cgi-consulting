@@ -1,6 +1,6 @@
 import "./Nav.css";
 import logo from "../../img/Logo-removebg-previewEdited.png";
-import { Link, useLocation, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import MobileNav from "./MobileNav";
 import Navigation from "./Navigation";

@@ -1,56 +1,87 @@
 .containerFooter{
-    width: 100%;
-    height: 40vh;
+    width: 100vw;
+    height: auto;
     background: linear-gradient(100.66deg, rgba(8, 63, 26, 0.86) 23.13%, rgba(8, 63, 26, 0.92) 23.14%, rgba(8, 63, 26, 0.86) 23.14%, rgba(8, 63, 26, 0.86) 43.82%, #056EA5 95.16%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 5px 30px;
-    gap: 2%;
+    gap: 1em;
     justify-items: center;
-    grid-template-areas: 
-    "cgi contactenos servicios"
-    "linea linea linea"
-    "copyright copyright copyright";
 }
 .cgi{
+    grid-column: 1/2;
     margin: 3%;
     letter-spacing: 1px;
     font-size: 70%;
     color:white;
     line-height: 1.6;
-    grid-area: cgi;
+    text-align: center;
 }
 .contactenos{
+    grid-column: 2/3;
     margin: 3%;
     letter-spacing: 1px;
     font-size: 70%;
     color:white;
     line-height: 1.6;
-    grid-area: contactenos;
 }
 .servicios{
+    grid-column: 3/4;
     margin: 3%;
     letter-spacing: 1px;
     font-size: 70%;
     color:white;
     line-height: 1.6;
-    grid-area: servicios;
 }
 .linea{
-    width: 550%;
-    height: 0.25px;
+    grid-column: 1/4;
+    width: 100vw;
+    height: 0.5px;
     background-color: white;
 }
 .copyright{
+    grid-column: 1/4;
+    margin-bottom: 1%;
     letter-spacing: 1px;
     font-size: 80%;
     color:white;
-    grid-area: copyright;
 }
 .logo{
     height: 10vh;
-    text-align: center;
 }
 .iconsRedes {
-    margin-top: 40%;
+    margin-top: 15%;
+}
+.email{
+    margin-top: 10%;
+    display: flex;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .containerFooter{
+        grid-template-columns: 1fr;
+    }
+    .cgi{
+        grid-column: 1/2;
+        text-align: center;
+    }
+    .contactenos{
+        grid-column: 1/2;
+        text-align: center;
+    }
+    .servicios{
+        grid-column: 1/2;
+        text-align: center;
+    }
+    .linea{
+        grid-column: 1/2;
+        width: 100vw;
+    }
+    .copyright{
+        grid-column: 1/2;
+        margin-bottom: 3%;
+    }
+    .iconsRedes {
+        margin-top: 1%;
+    }
 }

@@ -3,10 +3,12 @@
 :root{
   --azul: #056EA5;
   --azul-links: #1877F2;
+  --azul-gradient: rgba(65, 100, 132, 1);
+  --verde-gradient: rgba(43, 90, 58, 1);
 }
 *{
   padding: 0;
-  margin: 0;
+  margin: 0px;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }

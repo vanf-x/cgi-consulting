@@ -28,3 +28,8 @@
 .h3{grid-area: h3;}
 .p{grid-area: p;     text-align: justify;}
 .img{grid-area: img ;}
+
+.scrollImg{
+    overflow: auto;
+    white-space: nowrap;
+}
