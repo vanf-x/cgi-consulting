@@ -8,6 +8,7 @@ import {
   faLinkedinIn,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
               icon={faEnvelope}
               className="nav-icon"
             ></FontAwesomeIcon>
-            <p>info@cgiconsulting.com</p>
+            <p>info@cgiconsulting.co</p>
         </div>
         <div className="iconsRedes">
           <a href="https://www.facebook.com/cgiconsultinginc" target="_blank">
@@ -51,15 +52,16 @@ const Footer = () => {
           </a>
         </div>
       </div>
-
-      <div className="servicios">
-        <h2 style={{margin:'2%'}}>Servicios</h2>
-        <p>Ingeniería y Construcción</p>
-        <p>Energía y Automatización</p>
-        <p>Bienes Raíces Industriales</p>
-        <p>Suministro y Automatización</p>
-        <p>Gestión de Riesgos y Seguros</p>
-      </div>
+      <Link to="/servicios">
+          <div className="servicios">
+          <h2 style={{margin:'2%'}}>Servicios</h2>
+          <p>Ingeniería y Construcción</p>
+          <p>Energía y Automatización</p>
+          <p>Bienes Raíces Industriales</p>
+          <p>Suministro y Automatización</p>
+          <p>Gestión de Riesgos y Seguros</p>
+        </div>
+      </Link>
 
       <div className="linea"></div>
       

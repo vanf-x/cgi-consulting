@@ -52,7 +52,7 @@ const Nav = () => {
               icon={faEnvelope}
               className="nav-icon"
             ></FontAwesomeIcon>
-            <p>info@cgiconsulting.com</p>
+            <p>info@cgiconsulting.co</p>
           </div>
 
         </div>

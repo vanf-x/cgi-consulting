@@ -15,18 +15,18 @@ const Projects = () => {
               <p className="p">Preparación, corte y perfilado del terreno, trabajos topográficos, trazo, replanteo, nivelación y compactación de subrasante, conformación de base y subbase de afirmado, y pavimentación, incluyendo maquinaria pesada y equipos livianos con sus implementos.</p>
             </div>
             <div className="scrollImg">
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/1.JPG'} alt="primera imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/2.JPG'} alt="segunda imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/3.JPG'} alt="tercera imagen " />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/4.JPG'} alt="cuarta imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/5.JPG'} alt="quinta imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/6.JPG'} alt="sexta imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/7.JPG'} alt="septima imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/8.JPG'} alt="octava imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/9.JPG'} alt="novena imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/10.JPG'} alt="decima imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/11.JPG'} alt="decima primera imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Unispan/12.JPG'} alt="decima segunda imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/1.JPG'} alt="primera imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/2.JPG'} alt="segunda imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/3.JPG'} alt="tercera imagen " />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/4.JPG'} alt="cuarta imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/5.JPG'} alt="quinta imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/6.JPG'} alt="sexta imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/7.JPG'} alt="septima imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/8.JPG'} alt="octava imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/9.JPG'} alt="novena imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/10.JPG'} alt="decima imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/11.JPG'} alt="decima primera imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Unispan/12.JPG'} alt="decima segunda imagen" />
             </div>
           </section>
           <section className="containerProyectos">
@@ -36,24 +36,24 @@ const Projects = () => {
               <p className="p">Demolición total, transporte y eliminación de desmonte, remodelación, ampliación, redistribución de espacios y estructuras internas incluyendo maquinaria pesada y equipos livianos con sus implementos.</p>
             </div>
             <div className="scrollImg">
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/1.JPG'} alt="primera imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/2.JPG'} alt="segunda imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/3.JPG'} alt="tercera imagen " />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/4.JPG'} alt="cuarta imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/5.JPG'} alt="quinta imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/6.JPG'} alt="sexta imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/7.JPG'} alt="septima imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/8.JPG'} alt="octava imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/9.JPG'} alt="novena imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/10.JPG'} alt="decima imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/11.JPG'} alt="decimoprimera imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/12.JPG'} alt="decimosegunda imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/13.JPG'} alt="decimotercera imagen " />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/15.JPG'} alt="decimocuarta imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/16.JPG'} alt="decimoquinta imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/18.JPG'} alt="decimosexta imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/19.JPG'} alt="decimoseptima imagen" />
-              <img style={{padding:10}} src={'src/img/Proyectos/Nanka/20.JPG'} alt="decimooctava imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/1.JPG'} alt="primera imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/2.JPG'} alt="segunda imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/3.JPG'} alt="tercera imagen " />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/4.JPG'} alt="cuarta imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/5.JPG'} alt="quinta imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/6.JPG'} alt="sexta imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/7.JPG'} alt="septima imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/8.JPG'} alt="octava imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/9.JPG'} alt="novena imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/10.JPG'} alt="decima imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/11.JPG'} alt="decimoprimera imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/12.JPG'} alt="decimosegunda imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/13.JPG'} alt="decimotercera imagen " />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/15.JPG'} alt="decimocuarta imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/16.JPG'} alt="decimoquinta imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/18.JPG'} alt="decimosexta imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/19.JPG'} alt="decimoseptima imagen" />
+              <img className="imgProyectos" src={'src/img/Proyectos/Nanka/20.JPG'} alt="decimooctava imagen" />
             </div>
           </section>
       <Footer/>

@@ -56,10 +56,10 @@
     display: flex;
 }
 
-
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 600px) {
     .containerFooter{
         grid-template-columns: 1fr;
+        grid-template-rows: auto;
     }
     .cgi{
         grid-column: 1/2;

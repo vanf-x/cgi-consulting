@@ -14,8 +14,9 @@
     white-space: nowrap;
 }
 
-img{
+.imgProyectos{
     height: 60vh;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
