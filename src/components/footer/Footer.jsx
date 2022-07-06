@@ -44,7 +44,7 @@ const Footer = () => {
               className="nav-icon"
             ></FontAwesomeIcon>
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/cgiconsulting/">
             <FontAwesomeIcon
               icon={faInstagram}
               className="nav-icon"
