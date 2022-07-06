@@ -19,7 +19,7 @@ const Footer = () => {
         <p>Consultoría y Gestión para la Inversión en Infraestructura</p>
       </div>
 
-      <div className="contactenos">
+      <div className="contactUs">
         <h2 style={{margin:'2%'}}>Contáctenos</h2>
         <div className="email">
             <FontAwesomeIcon
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
       </div>
       <Link to="/servicios">
-          <div className="servicios">
+          <div className="services_footer">
           <h2 style={{margin:'2%'}}>Servicios</h2>
           <p>Ingeniería y Construcción</p>
           <p>Energía y Automatización</p>
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
       </Link>
 
-      <div className="linea"></div>
+      <div className="line"></div>
       
       <div className="copyright">Copyright  2022.Todos los derechos reservados.</div>
     </div>

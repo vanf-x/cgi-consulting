@@ -1,29 +1,35 @@
-.containerProyectos{
+.containerProjects{
     margin: 2% 3% 2% 4%; 
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 1em;
 }
-.h1{grid-column: 1/2; margin: 2%;}
-.h3{grid-column: 1/2;margin: 2%}
-.p{grid-column: 1/2; margin: 2%; text-align: justify;}
-.img{grid-column: 2/3;}
+.h1{
+    grid-column: 1/2; 
+    margin: 2%;
+}
+.h3{grid-column: 1/2;
+    margin: 2%
+}
+.p{
+    grid-column: 1/2; 
+    margin: 2%; 
+    text-align: justify;
+}
+.imgProjects{
+    grid-column: 2/3; 
+    height: 60vh;
+    padding: 10px;}
 
 .scrollImg{
     overflow: auto;
     white-space: nowrap;
 }
-
-.imgProyectos{
-    height: 60vh;
-    padding: 10px;
-}
-
 @media only screen and (max-width: 600px) {
-    .containerProyectos{
+    .containerProjects{
         grid-template-columns: 1fr;
     }
-    img{
+    .imgProjects{
         height: 50vh;
     }
 }

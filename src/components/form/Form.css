@@ -12,7 +12,7 @@
     gap: 1em;
 }
 .outlined-basic-mensaje { grid-column: 1/3; }
-.enviar{
+.send{
     grid-column: 2/3;
     justify-self: end;
 } 
@@ -35,5 +35,5 @@ button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-s
         grid-template-columns: 1fr;
     }
     .outlined-basic-mensaje { grid-column: 1/2; }
-    .enviar{grid-column: 1/2;} 
+    .send{grid-column: 1/2;} 
 }

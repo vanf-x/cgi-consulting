@@ -4,9 +4,9 @@ import imgFondoTitulo from "../../img/fondo-titulo.png";
 
 const Header = (props) => {
     return <>
-            <div className="containerTitulo">
-                <img src={imgFondoTitulo} alt="fondo" className="imgFondoTitulo"/>
-                <h1 className="tituloSeccion">{props.titulo}</h1>
+            <div className="containerTitle">
+                <img src={imgFondoTitulo} alt="fondo" className="imgBackgroundTitle"/>
+                <h1 className="titleSeccion">{props.titulo}</h1>
             </div>
         </>;
 };

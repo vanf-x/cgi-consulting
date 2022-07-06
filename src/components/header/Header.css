@@ -1,13 +1,13 @@
-.imgFondoTitulo{
+.imgBackgroundTitle{
     width: 100vw;
     height: auto;
     background-size:cover;
 }
-.containerTitulo{
+.containerTitle{
     position: relative;
     display: inline-block;
 }
-.tituloSeccion{
+.titleSeccion{
     letter-spacing: 1px;
     position: absolute;
     top: 50%;
@@ -19,7 +19,7 @@
 
 /* cambiar height y tamaño letra smartphone */
 @media only screen and (max-width: 750px) {
-    .tituloSeccion{
+    .titleSeccion{
         font-size: 25px;
     }
 }

@@ -9,7 +9,7 @@ import cascos from "../../img/cascos.png"
 
 const Services = () => {
   return <>
-      <img src={operarios} alt="operarios en planta" className="imgOperarios"/>
+      <img src={operarios} alt="operarios en planta" className="imgOperators"/>
       <Container>
         <section>
           <h1>Ingeniería y Construcción</h1>
@@ -88,7 +88,7 @@ const Services = () => {
           <h1>Gestión de Riesgos y Seguros</h1>
           <p style={{marginTop:'3%'}}>Asesoramos en la Gestión de Riesgos y Administración de Seguros, donde trabajamos con todas las Cías. de Seguros en Perú- Protecta, Qualitas, La Positiva, Mapfre, Pacífico, y Rímac - y más de un bróker especializado por industria y ramo, reevaluando nuevas o condiciones actuales y generando ahorro y eficiencia para la empresa.</p>
           <p style={{marginTop:'2%'}}>Nos enfocamos principalmente en Seguros Todo Riesgo para Contratista y/o Maquinaria, principalmente TREC, CAR, 3D, RCE, Transporte, Vehicular y Lucro Cesante, integrando la Prevención de Riesgos e intermediando en caso de siniestro a través del bróker con la aseguradora.</p>
-          <img src={cascos} alt="cascos de operarios" className="imgCascos"/>
+          <img src={cascos} alt="cascos de operarios" className="imgHelmets"/>
         </section>
       </Container>
       <Footer/>

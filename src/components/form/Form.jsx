@@ -12,7 +12,7 @@ const Form = () => {
         <TextField className="outlined-basic-tel" label="Telefono" name="Telefono" variant="outlined" type="tel"/>
         <TextField className="outlined-basic-org" label="Organizacion" name="Organizacion" variant="outlined" type="text"/>
         <TextField className="outlined-basic-mensaje" label="Mensaje" name="Mensaje" variant="outlined" type="text"/>
-        <Button className="enviar" variant="contained" type='submit'>ENVIAR</Button> 
+        <Button className="send" variant="contained" type='submit'>ENVIAR</Button> 
         <input type="hidden" name="_next" value="http://localhost:3000/contacto"></input>
         <input type="hidden" name="_captcha" value="false"></input>
       </form>
