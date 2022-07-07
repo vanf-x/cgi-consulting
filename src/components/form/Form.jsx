@@ -13,7 +13,7 @@ const Form = () => {
         <TextField className="outlined-basic-org" label="Organizacion" name="Organizacion" variant="outlined" type="text"/>
         <TextField className="outlined-basic-mensaje" label="Mensaje" name="Mensaje" variant="outlined" type="text"/>
         <Button className="send" variant="contained" type='submit'>ENVIAR</Button> 
-        <input type="hidden" name="_next" value="http://localhost:3000/contacto"></input>
+        <input type="hidden" name="_next" value="http://www.cgiconsulting.co/"></input>
         <input type="hidden" name="_captcha" value="false"></input>
       </form>
     </Container>
